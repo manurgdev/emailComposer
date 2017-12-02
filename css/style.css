@@ -1,0 +1,57 @@
+.bCPage{
+    background: rgba(179,220,237,1);
+    background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+    background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+}
+.padTopCom{padding-top: 5%}
+
+.modal{position: inherit}
+.modal-header{padding: 25px; padding-left: 30px; color: white; background-color: #094358; border-radius: 5px 5px 0px 0px}
+.modal-footer{border: none; padding-top: 0px}
+.clip-icon{content: '';
+           height: 30px;
+           width: 40px;
+           display: block;
+           background: url(../img/clip_icon.png);
+           background-repeat: no-repeat;
+           background-size: 40px 30px}
+input[type="file"] {
+    display: none;
+}
+.lblFile{border: 1px solid #cccccc; cursor: pointer}
+.butCirc{border-radius: 50%}
+.btnOval{width: 100px; border-radius: 20px;}
+.divThumbnailsContainer{text-align: center}
+.divThumbnail{position: relative; display: inline-block; margin-left: 10px; margin-top: 5px}
+.divThumbnail img{vertical-align: top}
+.thumbnail{width: 100px; height: 100px; border-radius: 5px}
+.remove {
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 30px;
+    opacity: 0;
+}
+.remove:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.divThumbnail:hover img{
+    opacity: 0.25;
+    cursor: pointer
+}
+
+.divThumbnail:hover .remove {
+    opacity: 1;
+}
+
+input::-ms-clear {
+    display: none;
+}
